@@ -1,0 +1,15 @@
+{
+  "name": "@sst-sms-flujo-cas/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "@types/aws-lambda": "^8.10.124",
+    "vitest": "^0.34.6",
+    "sst": "^2.28.3"
+  }
+}
